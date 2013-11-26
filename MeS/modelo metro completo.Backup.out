@@ -1,0 +1,73 @@
+SIMAN Run Controller.
+
+2457.6447 Hours>
+                                      ARENA Simulation Results
+                                              josimarpc
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/26/2013
+Analyst: josimarpc                                                   Model revision date:11/26/2013
+
+Replication ended at time      : 2457.6447 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Passageiro.VATime                           3.7554     (Insuf)    1.3029     6.1929         16    
+Passageiro.NVATime                          .00000     (Insuf)    .00000     .00000         16    
+Passageiro.WaitTime                         .00000     (Insuf)    .00000     .00000         16    
+Passageiro.TranTime                         .00000     (Insuf)    .00000     .00000         16    
+Passageiro.OtherTime                        .00000     (Insuf)    .00000     .00000         16    
+Passageiro.TotalTime                        3.7554     (Insuf)    1.3029     6.1929         16    
+Jaboatao.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000         14    
+Camaragibe.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          9    
+Bilhetagem.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000         17    
+linha sul.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         23    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passageiro.WIP                              .02446     (Insuf)    .00000     1.0000     1.0000    
+bilheteiro.NumberBusy                       1.3350E-04 (Insuf)    .00000     1.0000     1.0000    
+bilheteiro.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+bilheteiro.Utilization                      1.3350E-04 (Insuf)    .00000     1.0000     1.0000    
+embarque Jaboatao.NumberBusy                .05301     (Insuf)    .00000     50.000     .00000    
+embarque Camaragibe.NumberBusy              .04968     (Insuf)    .00000     50.000     .00000    
+embarque linha sul.NumberBusy               .13536     (Insuf)    .00000     50.000     .00000    
+Jaboatao.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Camaragibe.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Bilhetagem.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+linha sul.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Record 1                                         23  Infinite
+Record 2                                          9  Infinite
+Record 3                                         14  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Passageiro.NumberIn                         17.000    
+Passageiro.NumberOut                        16.000    
+bilheteiro.NumberSeized                     17.000    
+bilheteiro.ScheduledUtilization             1.3350E-04
+embarque Jaboatao.NumberSeized              700.00    
+embarque Camaragibe.NumberSeized            450.00    
+embarque linha sul.NumberSeized             1150.0    
+System.NumberOut                            16.000    
+
+
+Simulation run time: 0.12 minutes.
+Simulation run complete.

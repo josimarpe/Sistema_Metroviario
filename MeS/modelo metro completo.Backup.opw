@@ -1,0 +1,31 @@
+[RESOURCES]
+bilheteiro
+embarque Jaboatao
+embarque Camaragibe
+embarque linha sul
+[VARIABLES]
+linha norte.NumberIn
+Decide 10.NumberOut True
+Jaboatao.NumberOut
+linha sul.NumberOut
+Process 11.NumberIn
+Bilhetagem.NumberOut
+Chegada Estacao Recife.NumberOut
+Saida Norte.NumberOut
+Decide 7.NumberOut True
+Decide 7.NumberOut False
+Decide 4.NumberOut True
+Jaboatao.NumberIn
+Chegada de Passageiros.NumberOut
+Process 11.NumberOut
+Decide 10.NumberOut False
+Camaragibe.NumberOut
+Decide 4.NumberOut False
+linha norte.NumberOut
+Saida sul.NumberOut
+Bilhetagem.NumberIn
+Chegada Estacao Recife.NumberIn
+Camaragibe.NumberIn
+linha sul.NumberIn
+Decide 6.NumberOut True
+Decide 6.NumberOut False
