@@ -1,40 +1,15 @@
-
-----------------------------------------------------------------------
-Entity: 3
-A runtime error was detected at time 1.1178369 at the following block:
-
- *   31 229$            DELAY:MinutesToBaseTime(Triangular(.5,2,1.5)),,VA;
-
-Invalid parameters for probability distribution.
-
-Possible causes:
- Uniform, Triangular: Parameters out of order.
- Normal: StdDev not positive real.
- Poisson: Mean not positive real.
- Weibull: Beta not positive real; Alpha not positive real.
- LogNormal: LogMean not positive real; LogStdDev not positive real.
- Gamma: Beta not positive real; Alpha not positive real.
- Exponential: Mean not positive real.
- k-Erlang: ExpMean not positive real; k not positive integer.
- Beta: Alpha1 not positive real; Alpha2 not positive real.
- Johnson: Lamda not positive real.
- Discrete, Continuous: Non-cumulative probabilities or missing value.
-
-----------------------------------------------------------------------
-
-
 SIMAN Run Controller.
 
-1.1178369 Hours>
+259560.0 Hours>
                                       ARENA Simulation Results
                                               josimarpc
 
-                                  Summary for Replication 1 of 10
+                                  Summary for Replication 1 of 1
 
 Project: Unnamed Project                                             Run execution date :11/26/2013
 Analyst: josimarpc                                                   Model revision date:11/26/2013
 
-Replication ended at time      : 1.1178369 Hours 
+Replication ended at time      : 259560.0 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -48,55 +23,55 @@ Passageiro.WaitTime                             --         --         --        
 Passageiro.TranTime                             --         --         --         --          0
 Passageiro.OtherTime                            --         --         --         --          0
 Passageiro.TotalTime                            --         --         --         --          0
-Jaboatao.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000          1    
+Jaboatao.Queue.WaitingTime                      --         --         --         --          0
 Camaragibe.Queue.WaitingTime                    --         --         --         --          0
-Bilhetagem.Queue.WaitingTime                .00214     (Insuf)    .00000     .02314         24    
-Chegada no Destino.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          1    
-linha sul.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000          1    
+Bilhetagem.Queue.WaitingTime                    --         --         --         --          0
+linha sul.Queue.WaitingTime                     --         --         --         --          0
+Porta de saida.Queue.WaitingTime                --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Passageiro.WIP                              12.777     (Insuf)    .00000     25.000     25.000    
-bilheteiro.NumberBusy                       .44818     (Insuf)    .00000     1.0000     1.0000    
+Passageiro.WIP                              28.878     (Insuf)    .00000     56.000     56.000    
+bilheteiro.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
 bilheteiro.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-bilheteiro.Utilization                      .44818     (Insuf)    .00000     1.0000     1.0000    
-embarque Jaboatao.NumberBusy                .21919     (Insuf)    .00000     1.0000     .00000    
+bilheteiro.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+embarque Jaboatao.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+capacidade da porta saida.NumberBusy        .00000     (Insuf)    .00000     .00000     .00000    
 embarque Camaragibe.NumberBusy              .00000     (Insuf)    .00000     .00000     .00000    
-embarque linha sul.NumberBusy               8.3460     (Insuf)    .00000     50.000     .00000    
-porta.NumberBusy                            .00000     (Insuf)    .00000     1.0000     1.0000    
-porta.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
-porta.Utilization                           .00000     (Insuf)    .00000     1.0000     1.0000    
+embarque linha sul.NumberBusy               .00000     (Insuf)    .00000     .00000     .00000    
 Jaboatao.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
 Camaragibe.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
-Bilhetagem.Queue.NumberInQueue              .06521     (Insuf)    .00000     1.0000     1.0000    
-Chegada no Destino.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Bilhetagem.Queue.NumberInQueue              28.878     (Insuf)    .00000     56.000     56.000    
 linha sul.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Porta de saida.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
 
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Cont.camaragibe                                   0  Infinite
-Record 1                                          1  Infinite
-Record 3                                          1  Infinite
+Record 1                                          0  Infinite
+Record 2                                          0  Infinite
+Record 3                                          0  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Passageiro.NumberIn                         25.000    
+Passageiro.NumberIn                         56.000    
 Passageiro.NumberOut                        .00000    
-bilheteiro.NumberSeized                     24.000    
-bilheteiro.ScheduledUtilization             .44818    
-embarque Jaboatao.NumberSeized              1.0000    
+bilheteiro.NumberSeized                     .00000    
+bilheteiro.ScheduledUtilization             .00000    
+embarque Jaboatao.NumberSeized              .00000    
+capacidade da porta saida.NumberSeized      .00000    
 embarque Camaragibe.NumberSeized            .00000    
-embarque linha sul.NumberSeized             50.000    
-porta.NumberSeized                          1.0000    
-porta.ScheduledUtilization                  .00000    
+embarque linha sul.NumberSeized             .00000    
 System.NumberOut                            .00000    
 
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.

@@ -1,31 +1,32 @@
 [RESOURCES]
 bilheteiro
 embarque Jaboatao
+capacidade da porta saida
 embarque Camaragibe
 embarque linha sul
 [VARIABLES]
+embarque.NumberOut False
+embarque linha sul ou sair.NumberOut True
 linha norte.NumberIn
-Decide 10.NumberOut True
 Jaboatao.NumberOut
+embarque linha norte ou sair.NumberOut True
 linha sul.NumberOut
-Process 11.NumberIn
 Bilhetagem.NumberOut
 Chegada Estacao Recife.NumberOut
 Saida Norte.NumberOut
-Decide 7.NumberOut True
-Decide 7.NumberOut False
-Decide 4.NumberOut True
 Jaboatao.NumberIn
 Chegada de Passageiros.NumberOut
-Process 11.NumberOut
-Decide 10.NumberOut False
+embarque.NumberOut True
 Camaragibe.NumberOut
-Decide 4.NumberOut False
 linha norte.NumberOut
+escolha do passageiro.NumberOut False
 Saida sul.NumberOut
+escolha do passageiro.NumberOut True
+embarque linha norte ou sair.NumberOut False
 Bilhetagem.NumberIn
+embarque linha sul ou sair.NumberOut False
 Chegada Estacao Recife.NumberIn
 Camaragibe.NumberIn
+Porta de saida.NumberIn
 linha sul.NumberIn
-Decide 6.NumberOut True
-Decide 6.NumberOut False
+Porta de saida.NumberOut

@@ -1,0 +1,62 @@
+
+	Distribution Summary
+
+Distribution:	Beta         
+Expression:	23 + 200 * BETA(0.0789, 0.0407)
+Square Error:	0.027132
+
+Chi Square Test
+  Number of intervals	= 2
+  Degrees of freedom 	= -1
+  Test Statistic     	= 0.737
+  Corresponding p-value	< 0.005
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.591
+  Corresponding p-value	< 0.01
+
+	Data Summary
+
+Number of Data Points	= 49
+Min Data Value       	= 23
+Max Data Value       	= 223
+Sample Mean          	= 155
+Sample Std Dev       	= 89.6
+
+	Histogram Summary
+
+Histogram Range    	= 23 to 223
+Number of Intervals	= 7
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    16       51.6      0.327      0.384      0.327      0.384
+   1     0       80.1      0.000     0.0203      0.327      0.404
+   2     0       109.      0.000     0.0151      0.327      0.419
+   3     0       137.      0.000     0.0140      0.327      0.433
+   4     0       166.      0.000     0.0154      0.327      0.448
+   5     0       194.      0.000     0.0214      0.327      0.470
+   6    33       223.      0.673      0.524       1.00      0.994
+
+
+=================================================================
+
+
+Data File: C:\Users\josimarpc\Desktop\Novo Documento de Texto.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.0271
+Triangular     0.397
+Uniform        0.417
+Gamma          0.444
+Weibull        0.448
+Lognormal      0.45
+Normal         0.458
+Erlang         0.464
+Exponential    0.464

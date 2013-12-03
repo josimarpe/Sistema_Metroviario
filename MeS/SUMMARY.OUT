@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\josimarpc\Desktop\Novo Documento de Texto.txt
+Data File: C:\Users\josimarpc\Desktop\Novo Documento de Texto.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.0205
+Uniform        0.0217
+Weibull        0.0217
+Normal         0.033
+Triangular     0.0457
+Erlang         0.0713
+Exponential    0.0713
+Gamma          0.0713
+Lognormal      0.0713

@@ -1,0 +1,15 @@
+
+----------------------------------------------------------------------
+A warning was generated at simulation time 0.0
+while evaluating a status display expression.
+
+Undefined symbol : Record 1
+Possible cause: A variable or other symbol was used 
+                without first being defined.
+Possible cause: A statistic was animated, but statistics collection 
+                was turned off.
+To find the problem, search for the above symbol name using 
+Edit-Find from the menu.
+----------------------------------------------------------------------
+
+
